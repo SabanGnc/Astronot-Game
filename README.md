@@ -390,6 +390,19 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+```
+
+##Roket Uçuş
+
+```
+public class RocketFlight : MonoBehaviour
+{
+    // Update is called once per frame
+    void Update()
+    {
+        transform.Translate(Vector3.up * 5 * Time.deltaTime);
+    }
+}
 }
 
 ```
